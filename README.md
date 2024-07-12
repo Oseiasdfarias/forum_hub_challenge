@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img height="60px" src="https://www.alura.com.br/assets/api/cursos/spring-boot-3-desenvolva-api-rest-java.svg">
+  <img height="60px" src="https://www.alura.com.br/assets/api/cursos/spring-framework-challenge-forum-hub.svg">
 </p>
 
 <p align="center">
@@ -49,3 +49,37 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 2. Validações realizadas segundo as regras de negócio;
 3. Implementação de uma base de dados relacional para a persistência da informação;
 4. Serviço de autenticação/autorização para restringir o acesso à informação.
+
+
+
+
+
+<!-- 
+
+
+### Teste da API Rest usando o Insomnia
+
+<p align="center">
+  <img wigth="90%" src="./utils/banner_demostraca.png">
+</p>
+
+
+---
+
+# Certificado
+
+
+
+<p align="center">
+  <img width="70%" src="./utils/Certificado_Spring_Boot 3_desenvolva_uma_API_Rest_em_Java_Alura_page-0001.jpg">
+</p>
+
+
+---
+
+<h3  id="id9">🎥 Rede Social</h3>
+
+<p align=center> <a href="https://oseiasfarias.info"><img src="https://img.shields.io/badge/Portfólio-%230077B5.svg?style=for-the-badge&logoColor=white"></a> <a href="https://www.linkedin.com/in/oseiasfarias/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://oseiasfarias.medium.com"><img src="https://img.shields.io/badge/Medium-%230077B5.svg?style=for-the-badge&logo=medium&logoColor=white"></a>
+<a href="https://www.kaggle.com/osiasdfarias"><img src="https://img.shields.io/badge/Kaggle-%230077B5.svg?style=for-the-badge&logo=kaggle&logoColor=white"></a>
+</p> -->
