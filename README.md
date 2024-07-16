@@ -58,6 +58,15 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 https://github.com/user-attachments/assets/7a0ee45c-a2d3-4cdc-979d-82a8aa694f8d
 
 
+### Testes Unitários com JUnit
+
+<p align="center">
+  <img width="87%" src="./utils/demo_test_unitario.gif">
+</p>
+
+
+
+
 ### Intellij IDEA
 
 <p align="center">
@@ -70,13 +79,6 @@ https://github.com/user-attachments/assets/7a0ee45c-a2d3-4cdc-979d-82a8aa694f8d
 
 <p align="center">
   <img width="87%" src="./utils/banner_swagger.png">
-</p>
-
-
-### Testes Unitários com JUnit
-
-<p align="center">
-  <img width="87%" src="./utils/demo_test_unitario.gif">
 </p>
 
 
