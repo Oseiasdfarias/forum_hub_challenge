@@ -54,7 +54,7 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 ### Intellij IDEA
 
 <p align="center">
-  <img wigth="95%" src="./utils/banner_idle.png">
+  <img width="97%" src="./utils/banner_idle.png">
 </p>
 
 
@@ -62,7 +62,7 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 ### Documentação com Swagger UI
 
 <p align="center">
-  <img wigth="90%" src="./utils/banner_swagger.png">
+  <img width="90%" src="./utils/banner_swagger.png">
 </p>
 
 <!-- 
