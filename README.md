@@ -62,7 +62,7 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 ### Documentação com Swagger UI
 
 <p align="center">
-  <img width="90%" src="./utils/banner_swagger.png">
+  <img width="87%" src="./utils/banner_swagger.png">
 </p>
 
 <!-- 
