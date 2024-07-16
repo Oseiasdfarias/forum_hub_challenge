@@ -39,4 +39,11 @@ public class Resposta {
     private Autor autor;
 
     private Boolean solucao;
+
+    public void atualizarInfos(DadosAtualizarRespostaDto dados) {
+
+        if (dados.mensagem() != null) {
+            this.mensagem = dados.mensagem();
+        }
+    }
 }

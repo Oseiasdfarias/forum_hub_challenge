@@ -1,5 +1,6 @@
 package forum.hub.api.controller;
 
+import forum.hub.api.domain.ValidacaoException;
 import forum.hub.api.domain.resposta.DadosDetalhamentoRespostaDto;
 import forum.hub.api.domain.resposta.DadosRespostaDto;
 import forum.hub.api.domain.resposta.Resposta;
@@ -52,6 +53,10 @@ public class TopicosController {
     public ResponseEntity autalizarTopico(
             @RequestBody @Valid DadosAtualizarTopico dados) {
 
+        if (!topicoRepository.existsById(dados.id())) {
+            throw new ValidacaoException("Id do Tópico informado não existe!");
+        }
+
         var topico = topicoRepository.getReferenceById(dados.id());
         topico.atualizarInfos(dados);
 
@@ -72,6 +77,11 @@ public class TopicosController {
     @DeleteMapping("/{id}")
     @Transactional
     public ResponseEntity excluirTopico(@PathVariable Long id) {
+
+        if (!topicoRepository.existsById(id)) {
+            throw new ValidacaoException("Id do Tópico informado não existe!");
+        }
+
         var medico = topicoRepository.getReferenceById(id);
         medico.excluir();
 
@@ -80,6 +90,11 @@ public class TopicosController {
 
     @GetMapping("/{id}")
     public ResponseEntity detalharTopico(@PathVariable Long id) {
+
+        if (!topicoRepository.existsById(id)) {
+            throw new ValidacaoException("Id do Tópico informado não existe!");
+        }
+
         var topico = topicoRepository.getReferenceById(id);
 
         return ResponseEntity.ok(new DadosDetalhadosTopicoDto(topico));

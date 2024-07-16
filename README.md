@@ -28,6 +28,7 @@
 # Spring Boot 3: Fórum Hub Challenge Back End
 
 
+
 Este é o nosso desafio, chamado de FórumHub: nele, vamos replicar este processo no nível do back end e, para isso, criaremos uma API REST usando Spring.
 
 Nossa API se concentrará especificamente nos tópicos, e deve permitir aos usuários:
@@ -36,7 +37,8 @@ Nossa API se concentrará especificamente nos tópicos, e deve permitir aos usu�
 > + Mostrar todos os tópicos criados;
 > + Mostrar um tópico específico;
 > + Atualizar um tópico;
-> + Eliminar um tópico.
+> + Eliminar um tópico;
+> + Outras funcionalidades.
 
 É o que conhecemos normalmente como CRUD (CREATE, READ, UPDATE, DELETE)*
 
@@ -49,6 +51,11 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 2. Validações realizadas segundo as regras de negócio;
 3. Implementação de uma base de dados relacional para a persistência da informação;
 4. Serviço de autenticação/autorização para restringir o acesso à informação.
+
+
+### Teste do projeto usando Insomnia
+
+https://github.com/user-attachments/assets/7a0ee45c-a2d3-4cdc-979d-82a8aa694f8d
 
 
 ### Intellij IDEA
@@ -64,6 +71,17 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 <p align="center">
   <img width="87%" src="./utils/banner_swagger.png">
 </p>
+
+
+### Testes Unitários com JUnit
+
+<p align="center">
+  <img width="87%" src="./utils/demo_test_unitario.gif">
+</p>
+
+
+
+
 
 <!-- 
 

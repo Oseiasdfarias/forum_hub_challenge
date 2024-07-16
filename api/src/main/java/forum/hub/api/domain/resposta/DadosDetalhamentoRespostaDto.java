@@ -2,8 +2,9 @@ package forum.hub.api.domain.resposta;
 
 public record DadosDetalhamentoRespostaDto(
         Long id,
-        String mensagem,
-        String topico,
+        String resposta,
+        Long idTopico,
+        String topicoMensagem,
         String autor,
         Boolean solucao) {
 
@@ -11,7 +12,8 @@ public record DadosDetalhamentoRespostaDto(
         this(
                 dados.getId(),
                 dados.getMensagem(),
-                dados.getTopico().getTitulo(),
+                dados.getTopico().getId(),
+                dados.getTopico().getMensagem(),
                 dados.getAutor().getNome(),
                 dados.getSolucao());
     }

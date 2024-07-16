@@ -1,6 +1,7 @@
 package forum.hub.api.domain.topico;
 
 
+import forum.hub.api.domain.ValidacaoException;
 import forum.hub.api.domain.autor.AutorRepository;
 import forum.hub.api.domain.resposta.RespostaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,10 @@ public class TopicoService {
 
     public DadosDetalhadosTopicoDto criarTopico(
             DadosTopicoDto dados) {
+
+        if (!topicoRepository.existsById(dados.IdAutor())) {
+            throw new ValidacaoException("Id do Autor informado não existe!");
+        }
 
         var autor = autorRepository.getReferenceById(dados.IdAutor());
 

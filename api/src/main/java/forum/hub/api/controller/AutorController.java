@@ -1,5 +1,6 @@
 package forum.hub.api.controller;
 
+import forum.hub.api.domain.ValidacaoException;
 import forum.hub.api.domain.autor.Autor;
 import forum.hub.api.domain.autor.AutorRepository;
 import forum.hub.api.domain.autor.DadosAutorDetalhamentoDto;
@@ -36,14 +37,14 @@ public class AutorController {
                 .body(new DadosAutorDetalhamentoDto(autor));
     }
 
-    @GetMapping
-    public ResponseEntity testeEndpoint() {
-        return ResponseEntity.ok("Olá, Mundo!");
-    }
 
     @DeleteMapping("/{id}")
     @Transactional
     public ResponseEntity excluirAutor(@PathVariable Long id) {
+
+        if (!repository.existsById(id)) {
+            throw new ValidacaoException("Id do autor informado não existe!");
+        }
 
         repository.deletarPorId(id);
 

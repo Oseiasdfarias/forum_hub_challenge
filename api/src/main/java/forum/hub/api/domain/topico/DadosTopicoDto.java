@@ -9,7 +9,7 @@ public record DadosTopicoDto(
         @NotBlank(message = "Mensagem é obrigatório.")
         String mensagem,
         @NotBlank(message = "Status é obrigatório.")
-        String status,
+        Boolean status,
         @NotBlank(message = "Autor é obrigatório.")
         @Valid
         Long IdAutor,

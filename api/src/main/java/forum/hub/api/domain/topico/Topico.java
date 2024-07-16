@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.springframework.data.web.config.EnableSpringDataWebSupport;
 
 import java.time.LocalDateTime;
 

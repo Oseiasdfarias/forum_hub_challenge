@@ -25,12 +25,13 @@ public class RespostaService {
     ) {
 
         if (dados.IdTopico() == null) {
-            System.out.println(dados.IdTopico());
             throw new ValidacaoException("Id do Tópico necessário");
+        }
+        if (!topicoRepository.existsById(dados.IdTopico())) {
+            throw new ValidacaoException("Id do Tópico informado não existe!");
         }
 
         var topico = topicoRepository.getReferenceById(dados.IdTopico());
-
         var autor = autorRepository.getReferenceById(topico.getAutor().getId());
 
         var resposta = new Resposta(
@@ -47,7 +48,8 @@ public class RespostaService {
         return new DadosDetalhamentoRespostaDto(
                 resposta.getId(),
                 resposta.getMensagem(),
-                topico.getTitulo(),
+                topico.getId(),
+                topico.getMensagem(),
                 autor.getNome(),
                 resposta.getSolucao());
     }
