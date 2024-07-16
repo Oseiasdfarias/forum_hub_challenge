@@ -81,27 +81,23 @@ https://github.com/user-attachments/assets/7a0ee45c-a2d3-4cdc-979d-82a8aa694f8d
 
 
 
+---
 
+## Certificado
 
-<!-- 
-
-
-### Teste da API Rest usando o Insomnia
 
 <p align="center">
-  <img wigth="90%" src="./utils/banner_demostraca.png">
+  <img width="70%" src="./utils/Certificado Challenge Fórum Hub.jpg">
 </p>
 
 
----
 
-# Certificado
-
+## Badge Spring
 
 
 <p align="center">
-  <img width="70%" src="./utils/Certificado_Spring_Boot 3_desenvolva_uma_API_Rest_em_Java_Alura_page-0001.jpg">
-</p> -->
+  <img height="80px" src="./utils/Badge-Spring.png">
+</p>
 
 
 ---
