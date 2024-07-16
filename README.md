@@ -51,8 +51,19 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 4. Serviço de autenticação/autorização para restringir o acesso à informação.
 
 
+### Intellij IDEA
+
+<p align="center">
+  <img wigth="95%" src="./utils/banner_idle.png">
+</p>
 
 
+
+### Documentação com Swagger UI
+
+<p align="center">
+  <img wigth="90%" src="./utils/banner_swagger.png">
+</p>
 
 <!-- 
 
@@ -72,7 +83,7 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 
 <p align="center">
   <img width="70%" src="./utils/Certificado_Spring_Boot 3_desenvolva_uma_API_Rest_em_Java_Alura_page-0001.jpg">
-</p>
+</p> -->
 
 
 ---
@@ -82,4 +93,4 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 <p align=center> <a href="https://oseiasfarias.info"><img src="https://img.shields.io/badge/Portfólio-%230077B5.svg?style=for-the-badge&logoColor=white"></a> <a href="https://www.linkedin.com/in/oseiasfarias/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://oseiasfarias.medium.com"><img src="https://img.shields.io/badge/Medium-%230077B5.svg?style=for-the-badge&logo=medium&logoColor=white"></a>
 <a href="https://www.kaggle.com/osiasdfarias"><img src="https://img.shields.io/badge/Kaggle-%230077B5.svg?style=for-the-badge&logo=kaggle&logoColor=white"></a>
-</p> -->
+</p>

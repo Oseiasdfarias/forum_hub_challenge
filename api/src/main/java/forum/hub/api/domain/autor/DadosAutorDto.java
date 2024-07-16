@@ -13,6 +13,5 @@ public record DadosAutorDto(
         @NotBlank(message = "Senha é obrigatória.")
         String senha,
         @NotBlank(message = "Perfil é obrigatório.")
-        String perfis
-) {
+        String perfis) {
 }
