@@ -85,11 +85,13 @@ https://github.com/user-attachments/assets/7a0ee45c-a2d3-4cdc-979d-82a8aa694f8d
 
 ---
 
+
+
 ### Certificado
 
 
 <p align="center">
-  <img width="70%" src="./utils/Certificado Challenge Fórum Hub.jpg">
+  <img width="95%" src="./utils/Certificado Challenge Fórum Hub.jpg">
 </p>
 
 
