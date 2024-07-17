@@ -100,7 +100,7 @@ https://github.com/user-attachments/assets/7a0ee45c-a2d3-4cdc-979d-82a8aa694f8d
 
 
 <p align="center">
-  <img height="80px" src="./utils/Badge-Spring.png">
+  <img height="100px" src="./utils/Badge-Spring.png">
 </p>
 
 
