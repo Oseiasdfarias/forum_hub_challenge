@@ -15,9 +15,13 @@
 <br>
 </p>
 
+
 <p align="center">
-  <img height="60px" src="https://www.alura.com.br/assets/api/cursos/spring-framework-challenge-forum-hub.svg">
+  <img height="60" src="https://www.alura.com.br/assets/api/cursos/spring-framework-challenge-forum-hub.svg"> 
+  <img height="60" src="./utils/Badge-Spring.png">
+  <br>
 </p>
+
 
 <p align="center">
   <img height="9" src="https://i.imgur.com/PvAbpvx.png"> &
